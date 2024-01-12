@@ -8,7 +8,7 @@ struct MainTabView: View {
 
     var body: some View {
         TabView {
-            DashboardView()
+            DashboardView(incomeViewModel: incomeViewModel, billViewModel: billViewModel)
                 .tabItem {
                     Label("Dashboard", systemImage: "house")
                 }
