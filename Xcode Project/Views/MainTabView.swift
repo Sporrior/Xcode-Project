@@ -1,9 +1,10 @@
 import SwiftUI
 
 struct MainTabView: View {
-    // Create instances of the ViewModels
     @StateObject private var incomeViewModel = IncomeViewModel()
     @StateObject private var billViewModel = BillViewModel()
+    @State private var showingAddIncomeView = false
+    @State private var showingAddBillView = false
 
     var body: some View {
         TabView {
@@ -12,15 +13,35 @@ struct MainTabView: View {
                     Label("Dashboard", systemImage: "house")
                 }
 
-            IncomeListView(viewModel: incomeViewModel)
-                .tabItem {
-                    Label("Incomes", systemImage: "plus.rectangle")
-                }
+            NavigationView {
+                IncomeListView(viewModel: incomeViewModel)
+                    .navigationBarItems(trailing: Button(action: {
+                        showingAddIncomeView = true
+                    }) {
+                        Image(systemName: "plus")
+                    })
+                    .sheet(isPresented: $showingAddIncomeView) {
+                        AddIncomeView(isPresented: $showingAddIncomeView, viewModel: incomeViewModel)
+                    }
+            }
+            .tabItem {
+                Label("Incomes", systemImage: "plus.rectangle")
+            }
 
-            BillsListView(viewModel: billViewModel)
-                .tabItem {
-                    Label("Bills", systemImage: "doc.text")
-                }
+            NavigationView {
+                BillsListView(viewModel: billViewModel)
+                    .navigationBarItems(trailing: Button(action: {
+                        showingAddBillView = true
+                    }) {
+                        Image(systemName: "plus")
+                    })
+                    .sheet(isPresented: $showingAddBillView) {
+                        AddBillView(isPresented: $showingAddBillView, viewModel: billViewModel)
+                    }
+            }
+            .tabItem {
+                Label("Bills", systemImage: "doc.text")
+            }
 
             SettingsView()
                 .tabItem {
