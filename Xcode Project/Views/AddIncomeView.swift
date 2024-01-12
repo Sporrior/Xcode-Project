@@ -10,11 +10,11 @@ struct AddIncomeView: View {
     var body: some View {
         NavigationView {
             Form {
-                TextField("Amount", text: $amount)
+                TextField("Hoeveel", text: $amount)
                     .keyboardType(.decimalPad)
-                TextField("Source", text: $source)
-                DatePicker("Date", selection: $date, displayedComponents: .date)
-                Button("Add Income") {
+                TextField("Van", text: $source)
+                DatePicker("Wanneer", selection: $date, displayedComponents: .date)
+                Button("Voeg rekening toe") {
                     if let amountDouble = Double(amount) {
                         let newIncome = Income(amount: amountDouble, source: source, date: date)
                         viewModel.addIncome(newIncome)
@@ -22,7 +22,7 @@ struct AddIncomeView: View {
                     }
                 }
             }
-            .navigationTitle("Add Income")
+            .navigationTitle("Voeg rekening toe")
         }
     }
 }

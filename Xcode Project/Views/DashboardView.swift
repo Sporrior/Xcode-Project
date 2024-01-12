@@ -8,20 +8,20 @@ struct DashboardView: View {
         NavigationView {
             VStack {
                 // Recent Incomes Summary
-                Text("Recent Incomes")
+                Text("Recente Inkomsten")
                 List(incomeViewModel.incomes.prefix(5)) { income in
                     Text("\(income.source): \(income.amount, format: .currency(code: "EUR"))")
                 }
 
                 // Upcoming Bills Summary
-                Text("Upcoming Bills")
+                Text("Aankomende Rekeningen")
                 List(billViewModel.bills.prefix(5)) { bill in
                     Text("\(bill.category): \(bill.amount, format: .currency(code: "EUR"))")
                 }
 
                 // Quick Actions can be added here
             }
-            .navigationTitle("")
+            .navigationTitle("Dashboard")
         }
     }
 }

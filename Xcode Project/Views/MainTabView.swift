@@ -25,7 +25,7 @@ struct MainTabView: View {
                     }
             }
             .tabItem {
-                Label("Incomes", systemImage: "plus.rectangle")
+                Label("Inkomen", systemImage: "plus.rectangle")
             }
 
             NavigationView {
@@ -40,7 +40,7 @@ struct MainTabView: View {
                     }
             }
             .tabItem {
-                Label("Bills", systemImage: "doc.text")
+                Label("Rekeningen", systemImage: "doc.text")
             }
 
             SettingsView()
