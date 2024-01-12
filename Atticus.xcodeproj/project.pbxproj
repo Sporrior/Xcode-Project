@@ -38,7 +38,7 @@
 		7C467C5A2B51E9B200CD5534 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		7C467C602B51EBE500CD5534 /* IncomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeViewModel.swift; sourceTree = "<group>"; };
 		7C467C622B51EBF200CD5534 /* BillViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillViewModel.swift; sourceTree = "<group>"; };
-		7C91A3C02B51E5F400234933 /* Xcode Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xcode Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C91A3C02B51E5F400234933 /* Atticus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atticus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C91A3C32B51E5F400234933 /* Xcode_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode_ProjectApp.swift; sourceTree = "<group>"; };
 		7C91A3C52B51E5F400234933 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C91A3C72B51E5F600234933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 		7C91A3C12B51E5F400234933 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C91A3C02B51E5F400234933 /* Xcode Project.app */,
+				7C91A3C02B51E5F400234933 /* Atticus.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,9 +146,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7C91A3BF2B51E5F400234933 /* Xcode Project */ = {
+		7C91A3BF2B51E5F400234933 /* Atticus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C91A3CE2B51E5F600234933 /* Build configuration list for PBXNativeTarget "Xcode Project" */;
+			buildConfigurationList = 7C91A3CE2B51E5F600234933 /* Build configuration list for PBXNativeTarget "Atticus" */;
 			buildPhases = (
 				7C91A3BC2B51E5F400234933 /* Sources */,
 				7C91A3BD2B51E5F400234933 /* Frameworks */,
@@ -158,9 +158,9 @@
 			);
 			dependencies = (
 			);
-			name = "Xcode Project";
+			name = Atticus;
 			productName = "Xcode Project";
-			productReference = 7C91A3C02B51E5F400234933 /* Xcode Project.app */;
+			productReference = 7C91A3C02B51E5F400234933 /* Atticus.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -178,7 +178,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7C91A3BB2B51E5F400234933 /* Build configuration list for PBXProject "Xcode Project" */;
+			buildConfigurationList = 7C91A3BB2B51E5F400234933 /* Build configuration list for PBXProject "Atticus" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -191,7 +191,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7C91A3BF2B51E5F400234933 /* Xcode Project */,
+				7C91A3BF2B51E5F400234933 /* Atticus */,
 			);
 		};
 /* End PBXProject section */
@@ -355,7 +355,7 @@
 		7C91A3CF2B51E5F600234933 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -363,6 +363,8 @@
 				DEVELOPMENT_TEAM = 5J5P78Q2Q9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Atticus;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -384,7 +386,7 @@
 		7C91A3D02B51E5F600234933 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -392,6 +394,8 @@
 				DEVELOPMENT_TEAM = 5J5P78Q2Q9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Atticus;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -413,7 +417,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7C91A3BB2B51E5F400234933 /* Build configuration list for PBXProject "Xcode Project" */ = {
+		7C91A3BB2B51E5F400234933 /* Build configuration list for PBXProject "Atticus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C91A3CC2B51E5F600234933 /* Debug */,
@@ -422,7 +426,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C91A3CE2B51E5F600234933 /* Build configuration list for PBXNativeTarget "Xcode Project" */ = {
+		7C91A3CE2B51E5F600234933 /* Build configuration list for PBXNativeTarget "Atticus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C91A3CF2B51E5F600234933 /* Debug */,
