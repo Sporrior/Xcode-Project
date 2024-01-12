@@ -10,7 +10,7 @@ struct BillsListView: View {
                     VStack(alignment: .leading) {
                         Text(bill.category)
                             .font(.headline)
-                        Text("Amount: \(bill.amount, format: .currency(code: "USD"))")
+                        Text("Amount: \(bill.amount, format: .currency(code: "EUR"))")
                         Text("Due Date: \(bill.dueDate, style: .date)")
                     }
                     Spacer()

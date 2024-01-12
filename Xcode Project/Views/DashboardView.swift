@@ -1,16 +1,27 @@
 import SwiftUI
 
 struct DashboardView: View {
-    // This view will display a summary of incomes and bills.
-    // Add ViewModel for data handling (not implemented yet)
+    @ObservedObject var incomeViewModel: IncomeViewModel
+    @ObservedObject var billViewModel: BillViewModel
 
     var body: some View {
         NavigationView {
             VStack {
-                Text("Dashboard")
-                // Additional UI elements will be added here.
+                // Recent Incomes Summary
+                Text("Recent Incomes")
+                List(incomeViewModel.incomes.prefix(5)) { income in
+                    Text("\(income.source): \(income.amount, format: .currency(code: "EUR"))")
+                }
+
+                // Upcoming Bills Summary
+                Text("Upcoming Bills")
+                List(billViewModel.bills.prefix(5)) { bill in
+                    Text("\(bill.category): \(bill.amount, format: .currency(code: "EUR"))")
+                }
+
+                // Quick Actions can be added here
             }
-            .navigationTitle("Dashboard")
+            .navigationTitle("")
         }
     }
 }
