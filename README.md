@@ -1,7 +1,3 @@
-Certainly! Here's a simple README template that you can use to describe the code and what it does:
-
----
-
 # Dashboard App
 
 This is a SwiftUI-based dashboard app that allows users to manage their incomes and view upcoming bills. The app provides a user-friendly interface for adding new income items and displaying a summary of recent incomes and upcoming bills.
@@ -18,10 +14,10 @@ This is a SwiftUI-based dashboard app that allows users to manage their incomes 
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 1]()
 *Description of the screenshot if applicable.*
 
-![Screenshot 2](screenshots/screenshot2.png)
+![Screenshot 2]()
 *Description of the screenshot if applicable.*
 
 ## Usage
@@ -45,18 +41,6 @@ This is a SwiftUI-based dashboard app that allows users to manage their incomes 
 
 Contributions are welcome! If you would like to contribute to this project, please open an issue or create a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Special thanks to [OpenAI](https://www.openai.com/) for their AI language model used to generate code and READMEs.
-
 ## Contact
 
-For questions or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
-
----
-
-You can customize this template to include specific details about your project, such as installation instructions, how to run the app, and any additional features or dependencies. Don't forget to add screenshots, update the contact information, and replace the placeholders with your actual project details.
+For questions or feedback, please contact [atticusdesign@egmail.com](mailto:atticusdesign@egmail.com).
