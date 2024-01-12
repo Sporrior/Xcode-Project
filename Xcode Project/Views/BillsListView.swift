@@ -10,8 +10,8 @@ struct BillsListView: View {
                     VStack(alignment: .leading) {
                         Text(bill.category)
                             .font(.headline)
-                        Text("Amount: \(bill.amount, format: .currency(code: "EUR"))")
-                        Text("Due Date: \(bill.dueDate, style: .date)")
+                        Text("- \(bill.amount, format: .currency(code: "EUR"))")
+                        Text("Datum: \(bill.dueDate, style: .date)")
                     }
                     Spacer()
                     Button(action: {
@@ -23,7 +23,7 @@ struct BillsListView: View {
             }
             .onDelete(perform: viewModel.deleteBill)
         }
-        .navigationTitle("Bills")
+        .navigationTitle("")
         .onAppear {
             viewModel.loadBills()
         }

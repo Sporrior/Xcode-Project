@@ -9,13 +9,13 @@ struct IncomeListView: View {
                 VStack(alignment: .leading) {
                     Text(income.source)
                         .font(.headline)
-                    Text("Amount: \(income.amount, format: .currency(code: "EUR"))")
-                    Text("Date: \(income.date, style: .date)")
+                    Text("+ \(income.amount, format: .currency(code: "EUR"))")
+                    Text("Datum: \(income.date, style: .date)")
                 }
             }
             .onDelete(perform: viewModel.deleteIncome)
         }
-        .navigationTitle("Income")
+        .navigationTitle("")
         .onAppear {
             viewModel.loadIncomes()
         }

@@ -11,12 +11,12 @@ struct AddBillView: View {
     var body: some View {
         NavigationView {
             Form {
-                TextField("Amount", text: $amount)
+                TextField("Hoeveel", text: $amount)
                     .keyboardType(.decimalPad)
-                TextField("Category", text: $category)
-                DatePicker("Due Date", selection: $dueDate, displayedComponents: .date)
-                Toggle("Paid", isOn: $isPaid)
-                Button("Add Bill") {
+                TextField("Wat voor rekening", text: $category)
+                DatePicker("Wanneer", selection: $dueDate, displayedComponents: .date)
+                Toggle("Betaald", isOn: $isPaid)
+                Button("Voeg rekening toe") {
                     if let amountDouble = Double(amount) {
                         let newBill = Bill(amount: amountDouble, category: category, dueDate: dueDate, isPaid: isPaid)
                         viewModel.addBill(newBill)
@@ -24,7 +24,7 @@ struct AddBillView: View {
                     }
                 }
             }
-            .navigationTitle("Add Bill")
+            .navigationTitle("Voeg Rekening toe")
         }
     }
 }
