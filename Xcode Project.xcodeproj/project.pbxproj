@@ -17,7 +17,6 @@
 		7C467C512B51E8E900CD5534 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C467C502B51E8E900CD5534 /* SettingsView.swift */; };
 		7C467C542B51E91300CD5534 /* DataPersistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C467C532B51E91300CD5534 /* DataPersistance.swift */; };
 		7C467C5B2B51E9B200CD5534 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C467C5A2B51E9B200CD5534 /* MainTabView.swift */; };
-		7C467C5E2B51EBB800CD5534 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C467C5D2B51EBB800CD5534 /* MainTabView.swift */; };
 		7C467C612B51EBE500CD5534 /* IncomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C467C602B51EBE500CD5534 /* IncomeViewModel.swift */; };
 		7C467C632B51EBF200CD5534 /* BillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C467C622B51EBF200CD5534 /* BillViewModel.swift */; };
 		7C91A3C42B51E5F400234933 /* Xcode_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91A3C32B51E5F400234933 /* Xcode_ProjectApp.swift */; };
@@ -37,7 +36,6 @@
 		7C467C502B51E8E900CD5534 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		7C467C532B51E91300CD5534 /* DataPersistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistance.swift; sourceTree = "<group>"; };
 		7C467C5A2B51E9B200CD5534 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
-		7C467C5D2B51EBB800CD5534 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		7C467C602B51EBE500CD5534 /* IncomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeViewModel.swift; sourceTree = "<group>"; };
 		7C467C622B51EBF200CD5534 /* BillViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillViewModel.swift; sourceTree = "<group>"; };
 		7C91A3C02B51E5F400234933 /* Xcode Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xcode Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,7 +74,7 @@
 				7C467C4C2B51E8D000CD5534 /* AddIncomeView.swift */,
 				7C467C4E2B51E8DF00CD5534 /* AddBillView.swift */,
 				7C467C502B51E8E900CD5534 /* SettingsView.swift */,
-				7C467C5D2B51EBB800CD5534 /* MainTabView.swift */,
+				7C467C5A2B51E9B200CD5534 /* MainTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -85,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				7C467C532B51E91300CD5534 /* DataPersistance.swift */,
-				7C467C5A2B51E9B200CD5534 /* MainTabView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -225,7 +222,6 @@
 				7C467C542B51E91300CD5534 /* DataPersistance.swift in Sources */,
 				7C467C472B51E89E00CD5534 /* DashboardView.swift in Sources */,
 				7C467C492B51E8B800CD5534 /* IncomeListView.swift in Sources */,
-				7C467C5E2B51EBB800CD5534 /* MainTabView.swift in Sources */,
 				7C467C512B51E8E900CD5534 /* SettingsView.swift in Sources */,
 				7C467C4B2B51E8C200CD5534 /* BillsListView.swift in Sources */,
 				7C467C4D2B51E8D000CD5534 /* AddIncomeView.swift in Sources */,
