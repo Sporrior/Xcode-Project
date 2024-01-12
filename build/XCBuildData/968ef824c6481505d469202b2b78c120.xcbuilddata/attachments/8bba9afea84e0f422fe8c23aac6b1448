@@ -1,0 +1,168 @@
+{
+  "" : {
+    "diagnostics" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Xcode Project-master.dia",
+    "emit-module-dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Xcode Project-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Xcode Project-master-emit-module.dia",
+    "swift-dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Xcode Project-master.swiftdeps"
+  },
+  "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/damienengelen/Development/Xcode Project/Xcode Project/ContentView.swift" : {
+    "const-values" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/damienengelen/Development/Xcode Project/Xcode Project/Helpers/DataPersistance.swift" : {
+    "const-values" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/DataPersistance.swiftconstvalues",
+    "dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/DataPersistance.d",
+    "diagnostics" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/DataPersistance.dia",
+    "index-unit-output-path" : "/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/DataPersistance.o",
+    "llvm-bc" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/DataPersistance.bc",
+    "object" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/DataPersistance.o",
+    "swift-dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/DataPersistance.swiftdeps",
+    "swiftmodule" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/DataPersistance~partial.swiftmodule"
+  },
+  "/Users/damienengelen/Development/Xcode Project/Xcode Project/Helpers/MainTabView.swift" : {
+    "const-values" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/MainTabView-2a4d46e08f25e27954c2202c946b2756.swiftconstvalues",
+    "dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/MainTabView-2a4d46e08f25e27954c2202c946b2756.d",
+    "diagnostics" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/MainTabView-2a4d46e08f25e27954c2202c946b2756.dia",
+    "index-unit-output-path" : "/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/MainTabView-2a4d46e08f25e27954c2202c946b2756.o",
+    "llvm-bc" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/MainTabView-2a4d46e08f25e27954c2202c946b2756.bc",
+    "object" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/MainTabView-2a4d46e08f25e27954c2202c946b2756.o",
+    "swift-dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/MainTabView-2a4d46e08f25e27954c2202c946b2756.swiftdeps",
+    "swiftmodule" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/MainTabView-2a4d46e08f25e27954c2202c946b2756~partial.swiftmodule"
+  },
+  "/Users/damienengelen/Development/Xcode Project/Xcode Project/Models/Bill.swift" : {
+    "const-values" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Bill.swiftconstvalues",
+    "dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Bill.d",
+    "diagnostics" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Bill.dia",
+    "index-unit-output-path" : "/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Bill.o",
+    "llvm-bc" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Bill.bc",
+    "object" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Bill.o",
+    "swift-dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Bill.swiftdeps",
+    "swiftmodule" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Bill~partial.swiftmodule"
+  },
+  "/Users/damienengelen/Development/Xcode Project/Xcode Project/Models/Income.swift" : {
+    "const-values" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Income.swiftconstvalues",
+    "dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Income.d",
+    "diagnostics" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Income.dia",
+    "index-unit-output-path" : "/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Income.o",
+    "llvm-bc" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Income.bc",
+    "object" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Income.o",
+    "swift-dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Income.swiftdeps",
+    "swiftmodule" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Income~partial.swiftmodule"
+  },
+  "/Users/damienengelen/Development/Xcode Project/Xcode Project/ViewModels/BillViewModel.swift" : {
+    "const-values" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/BillViewModel.swiftconstvalues",
+    "dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/BillViewModel.d",
+    "diagnostics" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/BillViewModel.dia",
+    "index-unit-output-path" : "/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/BillViewModel.o",
+    "llvm-bc" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/BillViewModel.bc",
+    "object" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/BillViewModel.o",
+    "swift-dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/BillViewModel.swiftdeps",
+    "swiftmodule" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/BillViewModel~partial.swiftmodule"
+  },
+  "/Users/damienengelen/Development/Xcode Project/Xcode Project/ViewModels/IncomeViewModel.swift" : {
+    "const-values" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/IncomeViewModel.swiftconstvalues",
+    "dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/IncomeViewModel.d",
+    "diagnostics" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/IncomeViewModel.dia",
+    "index-unit-output-path" : "/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/IncomeViewModel.o",
+    "llvm-bc" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/IncomeViewModel.bc",
+    "object" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/IncomeViewModel.o",
+    "swift-dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/IncomeViewModel.swiftdeps",
+    "swiftmodule" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/IncomeViewModel~partial.swiftmodule"
+  },
+  "/Users/damienengelen/Development/Xcode Project/Xcode Project/Views/AddBillView.swift" : {
+    "const-values" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/AddBillView.swiftconstvalues",
+    "dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/AddBillView.d",
+    "diagnostics" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/AddBillView.dia",
+    "index-unit-output-path" : "/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/AddBillView.o",
+    "llvm-bc" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/AddBillView.bc",
+    "object" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/AddBillView.o",
+    "swift-dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/AddBillView.swiftdeps",
+    "swiftmodule" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/AddBillView~partial.swiftmodule"
+  },
+  "/Users/damienengelen/Development/Xcode Project/Xcode Project/Views/AddIncomeView.swift" : {
+    "const-values" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/AddIncomeView.swiftconstvalues",
+    "dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/AddIncomeView.d",
+    "diagnostics" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/AddIncomeView.dia",
+    "index-unit-output-path" : "/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/AddIncomeView.o",
+    "llvm-bc" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/AddIncomeView.bc",
+    "object" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/AddIncomeView.o",
+    "swift-dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/AddIncomeView.swiftdeps",
+    "swiftmodule" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/AddIncomeView~partial.swiftmodule"
+  },
+  "/Users/damienengelen/Development/Xcode Project/Xcode Project/Views/BillsListView.swift" : {
+    "const-values" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/BillsListView.swiftconstvalues",
+    "dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/BillsListView.d",
+    "diagnostics" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/BillsListView.dia",
+    "index-unit-output-path" : "/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/BillsListView.o",
+    "llvm-bc" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/BillsListView.bc",
+    "object" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/BillsListView.o",
+    "swift-dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/BillsListView.swiftdeps",
+    "swiftmodule" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/BillsListView~partial.swiftmodule"
+  },
+  "/Users/damienengelen/Development/Xcode Project/Xcode Project/Views/DashboardView.swift" : {
+    "const-values" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/DashboardView.swiftconstvalues",
+    "dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/DashboardView.d",
+    "diagnostics" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/DashboardView.dia",
+    "index-unit-output-path" : "/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/DashboardView.o",
+    "llvm-bc" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/DashboardView.bc",
+    "object" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/DashboardView.o",
+    "swift-dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/DashboardView.swiftdeps",
+    "swiftmodule" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/DashboardView~partial.swiftmodule"
+  },
+  "/Users/damienengelen/Development/Xcode Project/Xcode Project/Views/IncomeListView.swift" : {
+    "const-values" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/IncomeListView.swiftconstvalues",
+    "dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/IncomeListView.d",
+    "diagnostics" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/IncomeListView.dia",
+    "index-unit-output-path" : "/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/IncomeListView.o",
+    "llvm-bc" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/IncomeListView.bc",
+    "object" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/IncomeListView.o",
+    "swift-dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/IncomeListView.swiftdeps",
+    "swiftmodule" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/IncomeListView~partial.swiftmodule"
+  },
+  "/Users/damienengelen/Development/Xcode Project/Xcode Project/Views/MainTabView.swift" : {
+    "const-values" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/MainTabView-012201d758634437ed9c30075321eba0.swiftconstvalues",
+    "dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/MainTabView-012201d758634437ed9c30075321eba0.d",
+    "diagnostics" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/MainTabView-012201d758634437ed9c30075321eba0.dia",
+    "index-unit-output-path" : "/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/MainTabView-012201d758634437ed9c30075321eba0.o",
+    "llvm-bc" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/MainTabView-012201d758634437ed9c30075321eba0.bc",
+    "object" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/MainTabView-012201d758634437ed9c30075321eba0.o",
+    "swift-dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/MainTabView-012201d758634437ed9c30075321eba0.swiftdeps",
+    "swiftmodule" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/MainTabView-012201d758634437ed9c30075321eba0~partial.swiftmodule"
+  },
+  "/Users/damienengelen/Development/Xcode Project/Xcode Project/Views/SettingsView.swift" : {
+    "const-values" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/SettingsView.swiftconstvalues",
+    "dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/SettingsView.d",
+    "diagnostics" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/SettingsView.dia",
+    "index-unit-output-path" : "/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/SettingsView.o",
+    "swift-dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/SettingsView.swiftdeps",
+    "swiftmodule" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/SettingsView~partial.swiftmodule"
+  },
+  "/Users/damienengelen/Development/Xcode Project/Xcode Project/Xcode_ProjectApp.swift" : {
+    "const-values" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Xcode_ProjectApp.swiftconstvalues",
+    "dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Xcode_ProjectApp.d",
+    "diagnostics" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Xcode_ProjectApp.dia",
+    "index-unit-output-path" : "/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Xcode_ProjectApp.o",
+    "llvm-bc" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Xcode_ProjectApp.bc",
+    "object" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Xcode_ProjectApp.o",
+    "swift-dependencies" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Xcode_ProjectApp.swiftdeps",
+    "swiftmodule" : "/Users/damienengelen/Development/Xcode Project/build/Xcode Project.build/Debug-iphonesimulator/Xcode Project.build/Objects-normal/arm64/Xcode_ProjectApp~partial.swiftmodule"
+  }
+}
