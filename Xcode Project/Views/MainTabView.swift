@@ -6,15 +6,18 @@ struct MainTabView: View {
     @State private var showingAddIncomeView = false
     @State private var showingAddBillView = false
     @State private var userName: String = "Damien"
-
+    @State private var selectedTab = "Dashboard" // State variable for the selected tab
 
     var body: some View {
-        TabView {
-            DashboardView.create(incomeViewModel: incomeViewModel, billViewModel: billViewModel, userName: $userName)
+        TabView(selection: $selectedTab) {
+            // Account Tab
+            UserAccountView()
                 .tabItem {
-                    Label("Dashboard", systemImage: "house")
+                    Label("Account", systemImage: "person.crop.circle")
                 }
+                .tag("Account")
 
+            // Income Tab
             NavigationView {
                 IncomeListView(viewModel: incomeViewModel)
                     .navigationBarItems(trailing: Button(action: {
@@ -29,7 +32,16 @@ struct MainTabView: View {
             .tabItem {
                 Label("Inkomen", systemImage: "plus.rectangle")
             }
+            .tag("Inkomen")
 
+            // Dashboard Tab
+            DashboardView.create(incomeViewModel: incomeViewModel, billViewModel: billViewModel, userName: $userName)
+                .tabItem {
+                    Label("Dashboard", systemImage: "house")
+                }
+                .tag("Dashboard")
+
+            // Bills Tab
             NavigationView {
                 BillsListView(viewModel: billViewModel)
                     .navigationBarItems(trailing: Button(action: {
@@ -44,16 +56,18 @@ struct MainTabView: View {
             .tabItem {
                 Label("Rekeningen", systemImage: "doc.text")
             }
-            
-            UserAccountView()
-                   .tabItem {
-                       Label("Account", systemImage: "person.crop.circle")
-                   }
+            .tag("Rekeningen")
 
+            // Settings Tab
             SettingsView()
                 .tabItem {
                     Label("Settings", systemImage: "gear")
                 }
+                .tag("Settings")
+        }
+        // Set the default tab to open as Dashboard
+        .onAppear {
+            self.selectedTab = "Dashboard"
         }
     }
 }
