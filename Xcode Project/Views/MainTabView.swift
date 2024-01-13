@@ -5,10 +5,12 @@ struct MainTabView: View {
     @StateObject private var billViewModel = BillViewModel()
     @State private var showingAddIncomeView = false
     @State private var showingAddBillView = false
+    @State private var userName: String = "Damien"
+
 
     var body: some View {
         TabView {
-            DashboardView(incomeViewModel: incomeViewModel, billViewModel: billViewModel)
+            DashboardView.create(incomeViewModel: incomeViewModel, billViewModel: billViewModel, userName: $userName)
                 .tabItem {
                     Label("Dashboard", systemImage: "house")
                 }
@@ -42,6 +44,11 @@ struct MainTabView: View {
             .tabItem {
                 Label("Rekeningen", systemImage: "doc.text")
             }
+            
+            UserAccountView()
+                   .tabItem {
+                       Label("Account", systemImage: "person.crop.circle")
+                   }
 
             SettingsView()
                 .tabItem {

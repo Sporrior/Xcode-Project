@@ -19,6 +19,7 @@
 		7C467C5B2B51E9B200CD5534 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C467C5A2B51E9B200CD5534 /* MainTabView.swift */; };
 		7C467C612B51EBE500CD5534 /* IncomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C467C602B51EBE500CD5534 /* IncomeViewModel.swift */; };
 		7C467C632B51EBF200CD5534 /* BillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C467C622B51EBF200CD5534 /* BillViewModel.swift */; };
+		7C5936092B520A2E00CDF560 /* UserAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5936082B520A2E00CDF560 /* UserAccountView.swift */; };
 		7C91A3C42B51E5F400234933 /* Xcode_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91A3C32B51E5F400234933 /* Xcode_ProjectApp.swift */; };
 		7C91A3C62B51E5F400234933 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91A3C52B51E5F400234933 /* ContentView.swift */; };
 		7C91A3C82B51E5F600234933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C91A3C72B51E5F600234933 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		7C467C5A2B51E9B200CD5534 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		7C467C602B51EBE500CD5534 /* IncomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeViewModel.swift; sourceTree = "<group>"; };
 		7C467C622B51EBF200CD5534 /* BillViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillViewModel.swift; sourceTree = "<group>"; };
+		7C5936082B520A2E00CDF560 /* UserAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountView.swift; sourceTree = "<group>"; };
 		7C91A3C02B51E5F400234933 /* Atticus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atticus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C91A3C32B51E5F400234933 /* Xcode_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode_ProjectApp.swift; sourceTree = "<group>"; };
 		7C91A3C52B51E5F400234933 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				7C467C4E2B51E8DF00CD5534 /* AddBillView.swift */,
 				7C467C502B51E8E900CD5534 /* SettingsView.swift */,
 				7C467C5A2B51E9B200CD5534 /* MainTabView.swift */,
+				7C5936082B520A2E00CDF560 /* UserAccountView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				7C467C4F2B51E8DF00CD5534 /* AddBillView.swift in Sources */,
 				7C467C442B51E83300CD5534 /* Bill.swift in Sources */,
 				7C467C632B51EBF200CD5534 /* BillViewModel.swift in Sources */,
+				7C5936092B520A2E00CDF560 /* UserAccountView.swift in Sources */,
 				7C91A3C62B51E5F400234933 /* ContentView.swift in Sources */,
 				7C467C612B51EBE500CD5534 /* IncomeViewModel.swift in Sources */,
 				7C467C5B2B51E9B200CD5534 /* MainTabView.swift in Sources */,
