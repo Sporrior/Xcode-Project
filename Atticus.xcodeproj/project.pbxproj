@@ -25,6 +25,7 @@
 		7C91A3C82B51E5F600234933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C91A3C72B51E5F600234933 /* Assets.xcassets */; };
 		7C91A3CB2B51E5F600234933 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C91A3CA2B51E5F600234933 /* Preview Assets.xcassets */; };
 		7CBA9FDF2B5215AA009C8445 /* CircleGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBA9FDE2B5215AA009C8445 /* CircleGraph.swift */; };
+		7CD6F7992B63C97100EC35A9 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6F7982B63C97100EC35A9 /* UserDefaultsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		7C91A3C72B51E5F600234933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C91A3CA2B51E5F600234933 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CBA9FDE2B5215AA009C8445 /* CircleGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGraph.swift; sourceTree = "<group>"; };
+		7CD6F7982B63C97100EC35A9 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				7C467C532B51E91300CD5534 /* DataPersistance.swift */,
+				7CD6F7982B63C97100EC35A9 /* UserDefaultsManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			files = (
 				7CBA9FDF2B5215AA009C8445 /* CircleGraph.swift in Sources */,
 				7C467C4F2B51E8DF00CD5534 /* AddBillView.swift in Sources */,
+				7CD6F7992B63C97100EC35A9 /* UserDefaultsManager.swift in Sources */,
 				7C467C442B51E83300CD5534 /* Bill.swift in Sources */,
 				7C467C632B51EBF200CD5534 /* BillViewModel.swift in Sources */,
 				7C5936092B520A2E00CDF560 /* UserAccountView.swift in Sources */,

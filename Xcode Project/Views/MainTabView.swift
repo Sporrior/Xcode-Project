@@ -5,17 +5,17 @@ struct MainTabView: View {
     @StateObject private var billViewModel = BillViewModel()
     @State private var showingAddIncomeView = false
     @State private var showingAddBillView = false
-    @State private var userName: String = "Damien"
-    @State private var selectedTab = "Dashboard" // State variable for the selected tab
+    @State private var userName: String = "Traveller"
+    @State private var selectedTab = "Dashboard"
 
     var body: some View {
         TabView(selection: $selectedTab) {
             // Account Tab
-            UserAccountView()
-                .tabItem {
-                    Label("Account", systemImage: "person.crop.circle")
-                }
-                .tag("Account")
+            UserAccountView(userName: $userName)  // Pass the Binding to the userName
+                           .tabItem {
+                               Label("Account", systemImage: "person.crop.circle")
+                           }
+                           .tag("Account")
 
             // Income Tab
             NavigationView {

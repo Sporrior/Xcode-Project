@@ -1,18 +1,26 @@
 import SwiftUI
 
 struct UserAccountView: View {
-    @State private var userName: String = ""
-    @State private var userEmail: String = ""
+    @Binding var userName: String
+    @State private var userEmail: String = UserDefaultsManager.shared.getUserEmail()
 
     var body: some View {
         Form {
             Section(header: Text("Account informatie")) {
                 TextField("Naam", text: $userName)
+                    .onSubmit {
+                        UserDefaultsManager.shared.saveUserName(userName)
+                    }
                 TextField("Email", text: $userEmail)
-                // Add more fields as necessary
+                    .onSubmit {
+                        UserDefaultsManager.shared.saveUserEmail(userEmail)
+                    }
             }
-            // Add more sections for additional settings or account management features
         }
         .navigationTitle("Account")
+        .onAppear {
+            userName = UserDefaultsManager.shared.getUserName()
+            userEmail = UserDefaultsManager.shared.getUserEmail()
+        }
     }
 }
