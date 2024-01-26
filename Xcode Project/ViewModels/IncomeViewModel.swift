@@ -1,19 +1,35 @@
 import Foundation
 
 class IncomeViewModel: ObservableObject {
-    @Published var incomes: [Income] = []
-    
+    @Published var incomes: [Income] = [] {
+        didSet {
+            saveIncomes()
+        }
+    }
+
+    init() {
+        loadIncomes()
+    }
+
     func loadIncomes() {
-        // Load incomes from UserDefaults or CoreData (to be implemented).
+        if let savedIncomes = UserDefaults.standard.object(forKey: "incomes") as? Data {
+            if let decodedIncomes = try? JSONDecoder().decode([Income].self, from: savedIncomes) {
+                self.incomes = decodedIncomes
+            }
+        }
     }
 
     func addIncome(_ income: Income) {
         incomes.append(income)
-        // Save to UserDefaults or CoreData (to be implemented).
     }
 
     func deleteIncome(at offsets: IndexSet) {
         incomes.remove(atOffsets: offsets)
-        // Update the persistence layer accordingly if needed.
+    }
+
+    private func saveIncomes() {
+        if let encoded = try? JSONEncoder().encode(incomes) {
+            UserDefaults.standard.set(encoded, forKey: "incomes")
+        }
     }
 }
